@@ -1,71 +1,113 @@
 {
-    "animals": [
-        {
-            "id": 1,
-            "name": "Doodles",
-            "breed": "Poodle",
-            "customerId": 1,
-            "locationId": 1
-        },
-        {
-            "id": 2,
-            "name": "Tanner",
-            "breed": "Pomeranian",
-            "customerId": 2,
-            "locationId": 2
-        },
-        {
-            "id": 3,
-            "name": "Stella",
-            "breed": "Fox Red British Lab",
-            "customerId": 3,
-            "locationId": 2
-        }
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "name": "Steve Brownlee",
-            "address": "7002 Chestnut Ct",
-            "animalId": 1
-        },
-        {
-            "id": 2,
-            "name": "Crystal Elsey",
-            "address": "303 Criddle Street",
-            "animalId": 2
-        },
-        {
-            "id": 3,
-            "name": "Mark McCann",
-            "address": "24 Belmont Blvd",
-            "animalId": 3
-        }
-    ],
-    "employees": [
-        {
-            "id": 1,
-            "name": "Rachel Wood",
-            "position": "Puppy Snuggler",
-            "locationId": 1
-        },
-        {
-            "id": 2,
-            "name": "Leah Needham",
-            "position": "Kitty Cuddler",
-            "locationId": 2
-        }
-    ],
-    "locations": [
-        {
-            "id": 1,
-            "name": "Nashville North",
-            "address": "8422 Johnson Pike"
-        },
-        {
-            "id": 2,
-            "name": "Nashville South",
-            "address": "209 Emory Drive"
-        }
-    ]
+  "animals": [
+    {
+      "id": 1,
+      "name": "Doodles",
+      "breed": "Poodle",
+      "customerId": 1,
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "name": "Tanner",
+      "breed": "Pomeranian",
+      "customerId": 2,
+      "locationId": 2
+    },
+    {
+      "id": 3,
+      "name": "Stella",
+      "breed": "Fox Red British Lab",
+      "customerId": 3,
+      "locationId": 2
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Steve Brownlee",
+      "address": "7002 Chestnut Ct",
+      "locationId": 1,
+      "animalId": 1
+    },
+    {
+      "id": 2,
+      "name": "Crystal Elsey",
+      "address": "303 Criddle Street",
+      "locationId": 2,
+      "animalId": 2
+    },
+    {
+      "id": 3,
+      "name": "Mark McCann",
+      "address": "24 Belmont Blvd",
+      "locationId": 2,
+      "animalId": 3
+    },
+    {
+      "name": "Kathryn Larcher",
+      "locationId": 1,
+      "id": 5
+    },
+    {
+      "name": "Mo Silvera",
+      "locationId": 2,
+      "id": 6
+    },
+    {
+      "name": "Madi Peper",
+      "locationId": 2,
+      "id": 4
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Rachel Wood",
+      "position": "Puppy Snuggler",
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "name": "Leah Needham",
+      "position": "Kitty Cuddler",
+      "locationId": 2
+    },
+    {
+      "name": "Miss Frizzle",
+      "locationId": 2,
+      "position": "Sales Associate",
+      "id": 3
+    },
+    {
+      "name": "Stella McCann",
+      "locationId": 1,
+      "position": "Spokesmodel",
+      "id": 4
+    },
+    {
+      "name": "Tanner Elsey",
+      "locationId": 2,
+      "position": "Spokesmodel",
+      "id": 5
+    },
+    {
+      "name": "Crystal Elsey",
+      "locationId": 1,
+      "position": "Hedgehog Groomer",
+      "id": 6
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "8422 Johnson Pike"
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "209 Emory Drive"
+    }
+  ]
 }
