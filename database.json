@@ -2,62 +2,53 @@
   "animals": [
     {
       "id": 1,
-      "name": "Doodles",
-      "breed": "Poodle",
-      "customerId": 1,
-      "locationId": 1
+      "name": "Tanner Elsey",
+      "breed": "Pomeranian",
+      "locationId": 2,
+      "customerId": 2
     },
     {
-      "id": 2,
-      "name": "Tanner",
-      "breed": "Pomeranian",
-      "customerId": 2,
-      "locationId": 2
+      "name": "Roger Wood",
+      "breed": "Cardinal",
+      "locationId": 2,
+      "id": 2
     },
     {
       "id": 3,
-      "name": "Stella",
-      "breed": "Fox Red British Lab",
-      "customerId": 3,
-      "locationId": 2
+      "name": "Luna Buckley",
+      "breed": "German Shepherd",
+      "locationId": 1,
+      "customerId": 2
+    },
+    {
+      "id": 4,
+      "name": "Stella McCann",
+      "breed": "Lab",
+      "locationId": 1,
+      "customerId": 2
+    },
+    {
+      "id": 5,
+      "name": "Sophie Larcher",
+      "breed": "Long-Haired Persian",
+      "locationId": 1,
+      "customerId": 2
     }
   ],
   "customers": [
     {
+      "email": "hello@crystalelsey.com",
+      "password": "Tanner",
+      "name": "Crystal Elsey",
       "id": 1,
-      "name": "Steve Brownlee",
-      "address": "7002 Chestnut Ct",
-      "locationId": 1,
       "animalId": 1
     },
     {
+      "email": "wood.rachel36@gmail.com",
+      "password": "babyotter",
+      "name": "Rachel  Wood",
       "id": 2,
-      "name": "Crystal Elsey",
-      "address": "303 Criddle Street",
-      "locationId": 2,
       "animalId": 2
-    },
-    {
-      "id": 3,
-      "name": "Mark McCann",
-      "address": "24 Belmont Blvd",
-      "locationId": 2,
-      "animalId": 3
-    },
-    {
-      "name": "Kathryn Larcher",
-      "locationId": 1,
-      "id": 5
-    },
-    {
-      "name": "Mo Silvera",
-      "locationId": 2,
-      "id": 6
-    },
-    {
-      "name": "Madi Peper",
-      "locationId": 2,
-      "id": 4
     }
   ],
   "employees": [
@@ -74,28 +65,22 @@
       "locationId": 2
     },
     {
-      "name": "Miss Frizzle",
-      "locationId": 2,
-      "position": "Sales Associate",
-      "id": 3
-    },
-    {
-      "name": "Stella McCann",
-      "locationId": 1,
-      "position": "Spokesmodel",
-      "id": 4
-    },
-    {
-      "name": "Tanner Elsey",
-      "locationId": 2,
-      "position": "Spokesmodel",
-      "id": 5
-    },
-    {
       "name": "Crystal Elsey",
       "locationId": 1,
       "position": "Hedgehog Groomer",
-      "id": 6
+      "id": 3
+    },
+    {
+      "name": "Mark McCann",
+      "locationId": 2,
+      "position": "Groomer",
+      "id": 4
+    },
+    {
+      "name": "Blake Slochowsky",
+      "locationId": 1,
+      "position": "Assistant Manager",
+      "id": 5
     }
   ],
   "locations": [
